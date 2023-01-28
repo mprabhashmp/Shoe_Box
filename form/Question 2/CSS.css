@@ -1,0 +1,39 @@
+.box{
+	padding:12px 20px;
+	margin:8px 0;
+	border:1px solid #ccc;
+	border-radius:4px;
+}
+
+.btn{
+	border-radius:6px;
+	height:40px;
+	width:60px;
+	text-align:center;
+	text-decoration:none;
+	cursor:pointer;
+}
+
+td{
+	font-family:cambria;
+
+}
+table{
+	border:1px solid black;
+	
+}
+
+th,td{
+	padding:7px;
+	text-align:left;
+	font-weight:bold;
+}
+
+h1{
+	color:blue;
+	text-align:center;
+}
+
+body{
+	background-color:#F5F8AB;
+}
