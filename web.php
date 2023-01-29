@@ -23,14 +23,14 @@ button {
   background-color: #04AA;
   color: white;
   padding: 14px 20px;
-  margin: 8px 0;
+  margin: 7px 0;
   border: none;
   cursor: pointer;
   width: 25%;
 }
 
 button:hover {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 
@@ -43,8 +43,7 @@ button:hover {
 
 img.avatar {
   width: 15%;
-  
-  border-radius: 100%;
+  border-radius:100%;
 }
 
 .container {
@@ -79,7 +78,7 @@ color:red;
 </head>
 
 <body>
-	<center><h2>magicbuy.lk Login Form </h2></center>
+	<center><h2>MagicBuy.lk Login Form </h2></center>
 <form action="index.php"method="post">
 	<div class="imagecontainer">
 		<center><img src="img1.png"class="avatar"alt="avater"></center>
