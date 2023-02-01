@@ -1,0 +1,56 @@
+<html>
+<head>
+	<title>Event Register</title>
+	<link rel="stylesheet"href="CSS.css"type="text/css">
+</head>
+<body>
+	<form method="get"action="script.php">
+		<h1>Event Register</h1>
+		<center><table>
+			<tr>
+				<th> Name: </th>
+				<td><input type="text"name="yourname"placeholder="Name"class="box"/></td>
+			</tr>
+
+			<tr>
+				<th>Title: </th>
+				<th><input type="radio"name="Title[]"/>Mr.
+					<input type="radio"name="Title[]"/>Mrs.
+					<input type="radio"name="Title[]"/>Miss.
+				</th>
+			</tr>
+
+			<tr>
+				<th>Adress</th>
+				<td><textarea name="area1"class="box"></textarea></td>
+			</tr>
+
+			<tr>
+				<th>Province</th>
+				<td><select name="province">
+						<option value="Central"name="province">Central</option>
+						<option value="Western"name="province">Western</option>
+					</select></td>
+			</tr>
+
+			<tr>
+				<th>Event</th>
+				<th><input type="checkbox"name="chek[]"/>Faculty Meet</br>
+					<input type="checkbox"name="chek[]"/>Batch Meet<br>
+					<input type="checkbox"name="chek[]"/>University Games
+				</th>
+			</tr>
+
+			<tr>
+				<td>
+				<input type="submit"name="sub"value="Submit"class="btn"/>
+				<input type="reset"name="clear"value="reset"class="btn"/>
+				</td>
+			</tr>
+
+		</table></center>
+	</form>
+</body>
+</html>
+
+
